@@ -54,6 +54,23 @@
             },
             "problemMatcher": ["$gcc"],
             "group": "build"
+        },
+        {
+            "type": "cppbuild",
+            "label": "Build merge_sort.cpp",
+            "command": "c:/msys64/ucrt64/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}/Sorting/Merge_Sort/merge_sort.cpp",
+                "-o",
+                "${workspaceFolder}/Sorting/Merge_Sort/merge_sort.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": "build"
         }
     ]
 }
