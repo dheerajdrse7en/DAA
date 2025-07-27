@@ -71,6 +71,36 @@
             },
             "problemMatcher": ["$gcc"],
             "group": "build"
+        },
+        {
+            "type": "cppbuild",
+            "label": "Build Selection Sort",
+            "command": "c:/msys64/ucrt64/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}/LAB-2/sorting_algorithms/selection_sort.cpp",
+                "-o",
+                "${workspaceFolder}/LAB-2/sorting_algorithms/selection_sort.exe"
+            ],
+            "options": { "cwd": "c:/msys64/ucrt64/bin" },
+            "problemMatcher": ["$gcc"],
+            "group": { "kind": "build", "isDefault": true }
+        },
+        {
+            "type": "cppbuild",
+            "label": "Build Insertion Sort",
+            "command": "c:/msys64/ucrt64/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}/LAB-2/sorting_algorithms/insertion_sort.cpp",
+                "-o",
+                "${workspaceFolder}/LAB-2/sorting_algorithms/insertion_sort.exe"
+            ],
+            "options": { "cwd": "c:/msys64/ucrt64/bin" },
+            "problemMatcher": ["$gcc"],
+            "group": "build"
         }
     ]
 }

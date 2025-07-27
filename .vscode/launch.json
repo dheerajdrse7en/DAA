@@ -84,6 +84,23 @@
                 }
             ],
             "preLaunchTask": "Build merge_sort.cpp"
+        },
+         {
+            "name": "Run Selection Sort",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/LAB-2/sorting_algorithms/selection_sort.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "c:/msys64/ucrt64/bin/gdb.exe",
+            "setupCommands": [
+                { "description": "Enable pretty-printing for gdb", "text": "-enable-pretty-printing", "ignoreFailures": true }
+            ],
+            "preLaunchTask": "Build Selection Sort"
         }
     ]
 }
