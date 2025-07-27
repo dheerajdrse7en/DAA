@@ -5,7 +5,7 @@
             "name": "Debug randomnumber.exe",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/random number/randomnumber.exe",
+            "program": "${workspaceFolder}/random_number/randomnumber.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -26,7 +26,7 @@
             "name": "Debug Insertionsort.exe",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/Sorting/Insertion Sort/Insertionsort.exe",
+            "program": "${workspaceFolder}/Sorting/Insertion_Sort/Insertionsort.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -42,6 +42,27 @@
                 }
             ],
             "preLaunchTask": "Build Insertionsort.cpp"
+        },
+        {
+            "name": "Debug quick_sort.exe",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Sorting/Quick_Sort/quick_sort.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "c:/msys64/ucrt64/bin/gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build quick_sort.cpp"
         }
     ]
 }

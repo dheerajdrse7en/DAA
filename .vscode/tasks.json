@@ -8,12 +8,12 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}/random number/randomnumber.cpp",
+                "${workspaceFolder}/random_number/randomnumber.cpp",
                 "-o",
-                "${workspaceFolder}/random number/randomnumber.exe"
+                "${workspaceFolder}/random_number/randomnumber.exe"
             ],
             "options": {
-                "cwd": "c:/msys64/ucrt64/bin"
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": ["$gcc"],
             "group": {
@@ -28,12 +28,29 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}/Sorting/Insertion Sort/Insertionsort.cpp",
+                "${workspaceFolder}/Sorting/Insertion_Sort/Insertionsort.cpp",
                 "-o",
-                "${workspaceFolder}/Sorting/Insertion Sort/Insertionsort.exe"
+                "${workspaceFolder}/Sorting/Insertion_Sort/Insertionsort.exe"
             ],
             "options": {
-                "cwd": "c:/msys64/ucrt64/bin"
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": "build"
+        },
+        {
+            "type": "cppbuild",
+            "label": "Build quick_sort.cpp",
+            "command": "c:/msys64/ucrt64/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}/Sorting/Quick_Sort/quick_sort.cpp",
+                "-o",
+                "${workspaceFolder}/Sorting/Quick_Sort/quick_sort.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": ["$gcc"],
             "group": "build"
